@@ -1,7 +1,7 @@
 var express = require('express')
 	app = express(),
 	port = process.env.PORT || 3000;
-	mongoose - require('mongoose'),
+	mongoose = require('mongoose'),
 	Task = require('./api/models/todoListModel')
 	bodyParser = require('body-parser');
 
